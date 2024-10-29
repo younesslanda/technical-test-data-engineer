@@ -1,0 +1,10 @@
+asyncio
+unittest
+aiohttp
+backoff
+schedule
+SQLAlchemy
+mysqlclient
+pymysql
+pytest-asyncio
+pandas
