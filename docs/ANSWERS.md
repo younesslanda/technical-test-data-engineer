@@ -6,6 +6,7 @@
     - cd data_flow/
     - conda create --name moveaitest python=3.9
     - conda activate moveaitest
+    - (on macos only) brew install mysql pkg-config
     - pip install -r requirements.txt (installer les dépendances)
 2. Pour lancer la pipeline de flux de données: (les URLs sensibles sont stockées dans un gestionnaire de secrets eg. Google Secret Manager et injectées lors de l'exécution sous forme de ENV vars). La base de données est une instance gratuite de mysql:
 ```bash
